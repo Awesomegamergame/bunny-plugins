@@ -1,0 +1,14 @@
+{
+    "name": "Dashless",
+    "description": "Changes dashes in text channel names to spaces.",
+    "authors": [
+        {
+            "name": "Awesomegamergame",
+            "id": "504401951623086081"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_chat_bubble_16px"
+    }
+}
