@@ -33,11 +33,11 @@ const traverseAndModify = (node) => {
 
 const patchRender = () => {
   return after("render", View, (_, res) => {
-    log("View render patched");
+    //log("View render patched");
 
     const modifiedTree = traverseAndModify(res);
 
-    log("React tree modified");
+    //log("React tree modified");
 
     return modifiedTree;
   });
